@@ -22,4 +22,4 @@
 1. 从 [访谈纪要-模板](访谈纪要-模板.md) 复制新文件；
 2. 按提纲访谈，补充第 5 个自拟问题；
 3. 提炼痛点（带原话证据）与需求线索（映射到 Identity / Q&A / Reputation / Discovery）；
-4. 把高频线索回填到 [Product Backlog](Product-Backlog.md)。
+4. 把高频线索回填到 [Product Backlog](../Product-Backlog.md)。
