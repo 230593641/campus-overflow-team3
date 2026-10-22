@@ -1,0 +1,14 @@
+# 默认所有改动需要 SM 与架构负责人 review
+# 注意：GitHub 用户名必须真实填写，否则 CODEOWNERS 不生效；
+# 当前为占位，待团队在角色分工确认后替换 @【】内容（任务书 6.27，需人确认）。
+*                       @【SM的GitHub】 @【架构负责人GitHub】
+
+# 按上下文指派
+/backend/co-qa/         @【Q&A负责人】
+/backend/co-reputation/  @【Reputation负责人】
+/backend/co-discovery/    @【Discovery负责人】
+/backend/co-identity/    @【Identity负责人】
+/frontend/               @【前端负责人】
+/deploy/                 @【DevOps负责人】
+/docs/                   @【PO】
+/.github/                @【SM】

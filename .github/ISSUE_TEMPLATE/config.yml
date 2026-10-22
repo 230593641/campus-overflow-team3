@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 课程问题与答疑
+    url: https://github.com/230593641/campus-overflow-team3/discussions
+    about: 非缺陷类问题请走讨论区
