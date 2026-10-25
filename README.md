@@ -1,7 +1,7 @@
 # CampusOverflow · 团队 3
 
 > 湖北文理学院《软件工程》课程贯穿项目 · 校园问答平台
-> 当前阶段：**Sprint 0（第 1-2 周）** ｜ 基线版本：`v0.1.0-starter`
+> 当前阶段：**Sprint 0 已完成，进入 Sprint 1（第 3 周）** ｜ 基线版本：`v0.1.0-starter`
 
 [![骨架检查](https://github.com/230593641/campus-overflow-team3/actions/workflows/skeleton-check.yml/badge.svg)](https://github.com/230593641/campus-overflow-team3/actions/workflows/skeleton-check.yml)
 
@@ -14,19 +14,19 @@
 
 | 姓名 | GitHub | 角色 | 负责上下文 | 备份 |
 | --- | --- | --- | --- | --- |
-| 孔志敏 | KZM-7748 | PO | 需求 / Backlog | 【待填】 |
-| 刘浩然 | moOvO760 | SM | 流程 / 看板 | 【待填】 |
-| 肖蕴晨 | LIfe-evoe | SM | 流程 / 看板 | 【待填】 |
-| 黄振亚 | deadlie | Dev | Q&A | 【待填】 |
-| 易子恒 | 230593641 | Dev | Discovery / 测试 | 【待填】 |
+| 孔志敏 | KZM-7748 | PO | 需求 / Backlog | 刘浩然 |
+| 刘浩然 | 230593641 | SM | 流程 / 看板 | 肖蕴晨 |
+| 肖蕴晨 | LIfe-evoe | SM | 流程 / 看板 | 刘浩然 |
+| 黄振亚 | deadlie | Dev | Q&A / 测试验证 | 易子恒 |
+| 易子恒 | moOvO760 | Dev | Discovery / 声誉 | 黄振亚 |
 
 > 说明：负责上下文的最终划分以 [角色与分工](docs/01-团队/角色与分工.md) 团队确认为准。
 
 ## 本周要做什么（每周一更新）
 
-- Sprint 目标：【待填】
-- 本周重点：【待填】
-- 详细计划：[docs/04-计划/Sprint0-计划.md](docs/04-计划/Sprint0-计划.md)
+- Sprint 目标：S1 身份内核——读懂参考实现，完成 Identity 增量需求选 2 个
+- 本周重点：环境跑通、领取 S1 开发任务、DDD 事件风暴准备
+- 详细计划：[docs/04-计划/Sprint1-计划.md](docs/04-计划/Sprint1-计划.md)
 - 看板：[GitHub Projects](https://github.com/230593641/campus-overflow-team3/projects)
 
 ## 五分钟跑起来
@@ -52,8 +52,8 @@ cd ../frontend && npm install && npm run dev      # http://localhost:5173
 | 目录 | 内容 | 维护人 |
 | --- | --- | --- |
 | `backend/` | Spring Boot 多模块后端（27 模块） | 全体 |
-| `frontend/` | React + TypeScript 前端 | 【待填】 |
-| `deploy/` | Dockerfile、compose、Nginx、Prometheus | 【待填】 |
+| `frontend/` | React + TypeScript 前端 | 易子恒 |
+| `deploy/` | Dockerfile、compose、Nginx、Prometheus | 黄振亚 |
 | `docs/01-团队/` | 章程、角色、DoD、会议纪要 | SM |
 | `docs/02-需求/` | 愿景、访谈、故事地图、Backlog | PO |
 | `docs/03-设计/` | 上下文图、聚合清单、术语表、ADR | 架构负责人 |
