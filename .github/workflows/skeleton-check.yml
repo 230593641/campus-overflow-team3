@@ -3,8 +3,8 @@
 name: skeleton-check
 
 on:
+  # 不限制 base 分支：所有 PR 都触发，避免 stacked PR 等不到检查而锁死合并
   pull_request:
-    branches: [main]
   push:
     branches: [main]
 
