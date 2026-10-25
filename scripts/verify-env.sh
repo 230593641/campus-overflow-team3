@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # 环境自检脚本：S0 每人跑一次，输出贴到 docs/05-质量/环境验证记录.md
+# Windows 用户请用 Git Bash 或 WSL 执行（PowerShell/cmd 无法直接跑本 bash 脚本）：
+#   bash scripts/verify-env.sh
 set -u
 fail=0
 
