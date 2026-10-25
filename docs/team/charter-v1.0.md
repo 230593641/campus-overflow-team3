@@ -46,7 +46,7 @@ type 用：feat / fix / docs / test / refactor / chore
 例：`test: 补 QuestionTest 边界用例`
 
 ### 代码要求
-- 新功能必须带单元测试，`mvn test` 全绿才能提 PR
+- 新功能必须带单元测试，本任务涉及模块的测试全绿才能提 PR
 - 不改动已有测试的断言（除非和 PO 确认过测试本身错了）
 - 领域层零框架依赖（ArchUnit 会检查）
 - 前端不写 `any` 类型，CI 会查
@@ -64,7 +64,7 @@ type 用：feat / fix / docs / test / refactor / chore
 一个任务算"完成"，必须同时满足：
 
 - [ ] 代码已合并到 main 分支
-- [ ] `mvn test` 全绿
+- [ ] 本任务涉及模块测试全绿
 - [ ] CI（GitHub Actions）全绿
 - [ ] 新功能有对应单元测试
 - [ ] 代码至少被 1 人 review 过
@@ -80,8 +80,8 @@ type 用：feat / fix / docs / test / refactor / chore
 | PO | 孔志敏 | 2024117152 | KZM-7748 | 需求优先级、Backlog、验收标准、拍板 |
 | SM | 刘浩然 | 2024116151 | moOvO760 | 站会主持、流程保障、合并 PR、风险跟踪 |
 | SM | 肖蕴晨 | 2024121222 | LIfe-evoe | 看板维护、issue 拆解、CI 配置、环境保障 |
-| DV | 黄振亚 | 2024109324 | deadlie | Q&A 上下文领域层 + 应用层 |
-| DV | 易子恒 | 2024117154 | 230593641 | Reputation + Discovery 上下文，DevOps |
+| DV | 黄振亚 | 2024109324 | deadlie | Discovery 上下文 + 测试验证 / CI 门禁（ArchUnit、skeleton-check） |
+| DV | 易子恒 | 2024117154 | 230593641 | Q&A + Reputation 上下文，DevOps |
 
 > 备份：每个角色有 backup，主负责人不在时由 backup 顶上。
 
